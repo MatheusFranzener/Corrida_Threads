@@ -109,7 +109,8 @@ public class Controlador extends JFrame implements Runnable {
         for (Corredor corredor : listaCorredores) {
             corredor.setParar(false);
         }
-        
+
+        JOptionPane.showMessageDialog(null, "Corrida terminada.");
         System.exit(0);
     }
 
