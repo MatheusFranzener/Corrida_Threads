@@ -15,7 +15,7 @@ public class Corredor extends Thread {
         this.progressBar = progressBar;
     }
 
-    public void setParar(boolean verificacaoParada){
+    public void setParar(boolean verificacaoParada) {
         this.parar = verificacaoParada;
     }
 
